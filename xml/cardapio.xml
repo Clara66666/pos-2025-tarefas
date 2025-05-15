@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cardapio>
+    <prato id="p01" > 
+        <nomedoprato>peixe frito</nomedoprato>
+        <descricao>peixe frito ao molho branco</descricao>
+        <igrediente> peixe, molho branco</igrediente>
+        <preco>dois reais</preco>
+        <caloria>8kcl</caloria>
+        <tempodepreparo>duas horas</tempodepreparo>
+    </prato>
+
+   
+   
+
+
+    <prato id = "p02"> 
+        <nomedoprato>arroz frito</nomedoprato>
+        <descricao>arroz frito ao molho branco</descricao>
+        <igrediente> arroz, molho branco</igrediente>
+        <preco>tres reais</preco>
+        <caloria>8kcl</caloria>
+        <tempodepreparo>uma horas</tempodepreparo>
+    
+    </prato>
+    
+   
+   
+
+
+    <prato id="p03" >
+        <nomedoprato>frango </nomedoprato>
+        <descricao>frango assado</descricao>
+        <igrediente> frango,pimenta</igrediente>
+        <preco>sete reais</preco>
+        <caloria>8kcl</caloria>
+        <tempodepreparo>duas horas</tempodepreparo>
+       
+    </prato>
+    
+   
+
+    <prato id="p04" > 
+        <nomedoprato>lasanha</nomedoprato>
+        <descricao>lasanha temperada</descricao>
+        <igrediente> lasanha, molho branco</igrediente>
+        <preco>dez reais</preco>
+        <caloria>8kcl</caloria>
+        <tempodepreparo>três horas</tempodepreparo>
+    </prato>
+
+   
+    
+       
+
+   <prato id="p05" >  
+        <nomedoprato>feijão</nomedoprato>
+        <descricao>feijão ao molho branco</descricao>
+        <igrediente> feijão, molho branco</igrediente>
+        <preco>dois reais</preco>
+        <caloria>8kcl</caloria>
+        <tempodepreparo>duas horas</tempodepreparo>
+  </prato>
+
+    
+   
+</cardapio>
