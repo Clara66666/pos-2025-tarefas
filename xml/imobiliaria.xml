@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE imobiliaria [
+<!ELEMENT imobiliaria (imovel+)>
+<!ELEMENT imovel (descricao, proprietario, endereco, caract)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT cabecalho (#PCDATA)>
+<!ELEMENT corpo (#PCDATA)>
+]>
+<imobiliaria>
+    <imovel>
+        
+    </imovel>
+</imobiliaria>
