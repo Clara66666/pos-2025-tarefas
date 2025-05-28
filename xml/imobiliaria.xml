@@ -1,13 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE imobiliaria [
-<!ELEMENT imobiliaria (imovel+)>
-<!ELEMENT imovel (descricao, proprietario, endereco, caract)>
-<!ELEMENT de (#PCDATA)>
-<!ELEMENT cabecalho (#PCDATA)>
-<!ELEMENT corpo (#PCDATA)>
-]>
+<!DOCTYPE imobiliaria SYSTEM "imobiliaria.dtd">
+
 <imobiliaria>
     <imovel>
-        
+        <descricao>casa1</descricao>
+        <proprietario>
+          <nome>Lurdes</nome>
+          <email>Lurdessan@gmail.com</email>
+          <telefone>9970642114</telefone>
+          <telefone>9970348114</telefone>
+        </proprietario>
+        <endereco>
+          <rua>rua um</rua>
+          <bairro>santos alves</bairro>
+          <cidade>Osasco</cidade>
+          <numero>120</numero>
+        </endereco>
+        <caracteristicas>
+          <tamanho>1.400</tamanho>
+          <numQuartos>5</numQuartos>
+          <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>20.000</valor>
     </imovel>
+
+
+    <imovel>
+        <descricao>casa2</descricao>
+        <proprietario>
+          <nome>joao</nome>
+          <email>joaossan@gmail.com</email>
+          <telefone>9970682114</telefone>
+        </proprietario>
+        <endereco>
+          <rua>rua dois</rua>
+          <bairro>dona neves</bairro>
+          <cidade>Osasco</cidade>
+          <numero>140</numero>
+        </endereco>
+        <caracteristicas>
+          <tamanho>1.400</tamanho>
+          <numQuartos>5</numQuartos>
+          <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>25.000</valor>
+    </imovel>
+    
+    <imovel>
+        <descricao>casa3</descricao>
+        <proprietario>
+          <nome>madruga</nome>
+          <email>madrugasan@gmail.com</email>
+          <telefone>9970682118</telefone>
+        </proprietario>
+        <endereco>
+          <rua>rua tres</rua>
+          <bairro>chiquinha</bairro>
+          <cidade>Osasco</cidade>
+          <numero>0</numero>
+        </endereco>
+        <caracteristicas>
+          <tamanho>1.400</tamanho>
+          <numQuartos>5</numQuartos>
+          <numBanheiros>7</numBanheiros>
+        </caracteristicas>
+        <valor>25.000</valor>
+    </imovel>
+    
+    <imovel>
+        <descricao>casa4</descricao>
+        <proprietario>
+          <nome>chico</nome>
+          <email>chicosan@gmail.com</email>
+          <telefone>9970682112</telefone>
+        </proprietario>
+        <endereco>
+          <rua>rua quatro</rua>
+          <bairro>dona florinda</bairro>
+          <cidade>Osasco</cidade>
+          <numero>144</numero>
+        </endereco>
+        <caracteristicas>
+          <tamanho>1.400</tamanho>
+          <numQuartos>10</numQuartos>
+          <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>45.000</valor>
+    </imovel>
+    
+    <imovel>
+        <descricao>casa5</descricao>
+        <proprietario>
+          <nome>jaiminho</nome>
+          <email>jaiminhosan@gmail.com</email>
+          <telefone>9970672114</telefone>
+        </proprietario>
+        <endereco>
+          <rua>rua cinco</rua>
+          <bairro>dona cloutilde</bairro>
+          <cidade>Osasco</cidade>
+          <numero>145</numero>
+        </endereco>
+        <caracteristicas>
+          <tamanho>1.400</tamanho>
+          <numQuartos>20</numQuartos>
+          <numBanheiros>5</numBanheiros>
+        </caracteristicas>
+        <valor>60.000</valor>
+    </imovel>
+    
 </imobiliaria>
