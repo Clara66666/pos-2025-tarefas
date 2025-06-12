@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema 
+   xmlns="http://cardapio.org"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+   xsi:schemaLocation="http://cardapio.org cardapio.xsd">
+
+
+<cardapio> 
+    <prato id="p1" > 
+        <nome>peixe frito</nome>
+        <descricao>peixe frito ao molho branco</descricao>
+        <ingredientes>
+            <ingrediente>peixe</ingrediente> 
+            <ingrediente>molho branco</ingrediente> 
+        </ingredientes>
+        <preco>dois reais</preco>
+        <calorias>8kcl</calorias>
+        <tempoPreparo>duas horas</tempoPreparo>
+    </prato>
+
+   
+   
+
+    <prato id="p2"> 
+        <nome>arroz frito</nome>
+        <descricao>arroz frito ao molho branco</descricao>
+        <ingredientes>
+            <ingrediente>arroz</ingrediente> 
+            <ingrediente>óleo</ingrediente> 
+        </ingredientes>
+        <preco>tres reais</preco>
+        <calorias>8kcl</calorias>
+        <tempoPreparo>uma horas</tempoPreparo>
+    
+    </prato>
+    
+   
+   
+
+    <prato id="p3" >
+        <nome>frango </nome>
+        <descricao>frango assado</descricao>
+        <ingredientes> 
+            <ingrediente>frango</ingrediente> 
+            <ingrediente>óleo</ingrediente>
+
+        </ingredientes>
+        <preco>sete reais</preco>
+        <calorias>8kcl</calorias>
+        <tempoPreparo>duas horas</tempoPreparo>
+       
+    </prato>
+    
+   
+
+    <prato id="p4" > 
+        <nome>lasanha</nome>
+        <descricao>lasanha temperada</descricao>
+        <ingredientes> 
+            <ingrediente>macarrão</ingrediente> 
+            <ingrediente>queijo</ingrediente> 
+        </ingredientes>
+        <preco>dez reais</preco>
+        <calorias>8kcl</calorias>
+        <tempoPreparo>três horas</tempoPreparo>
+    </prato>
+
+   
+    
+       
+
+   <prato id="p5" >  
+        <nome>feijão</nome>
+        <descricao>feijão ao molho branco</descricao>
+        <ingredientes> 
+            <ingrediente>feijão</ingrediente> 
+            <ingrediente>molho branco</ingrediente> 
+        </ingredientes>
+        <preco>dois reais</preco>
+        <calorias>8kcl</calorias>
+        <tempoPreparo>duas horas</tempoPreparo>
+  </prato>
+
+    
+   
+</cardapio>
+</schema>

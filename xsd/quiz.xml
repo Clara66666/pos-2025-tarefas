@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema 
+   xmlns="http://quiz.org"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+   xsi:schemaLocation="http://quiz.org quiz.xsd">
+
+
+<quiz versao="1.0">
+  <disciplina>Matemática</disciplina>
+
+  <professor>
+    <nome>Maria Silva</nome>
+    <matrícula>12345</matrícula>
+  </professor>
+
+  <turma>8A</turma>
+  <data>2025-06-11</data>
+
+  <questões>
+    <questão>
+      <enunciado>Quanto é 5 + 3?</enunciado>
+      <pontuação>1</pontuação>
+      <alternativas>
+        <alternativa correta="nao">6</alternativa>
+        <alternativa correta="nao">7</alternativa>
+        <alternativa correta="sim">8</alternativa>
+        <alternativa correta="nao">9</alternativa>
+      </alternativas>
+    </questão>
+
+    <questão>
+      <enunciado>Qual é a capital da França?</enunciado>
+      <pontuação>1</pontuação>
+      <alternativas>
+        <alternativa correta="sim">Paris</alternativa>
+        <alternativa correta="nao">Londres</alternativa>
+        <alternativa correta="nao">Berlim</alternativa>
+        <alternativa correta="nao">Madri</alternativa>
+      </alternativas>
+    </questão>
+
+    <questão>
+      <enunciado>Qual o resultado de 2 × 6?</enunciado>
+      <pontuação>1</pontuação>
+      <alternativas>
+        <alternativa correta="nao">10</alternativa>
+        <alternativa correta="sim">12</alternativa>
+        <alternativa correta="nao">14</alternativa>
+        <alternativa correta="nao">16</alternativa>
+      </alternativas>
+    </questão>
+
+    <questão>
+      <enunciado>Quem escreveu "Dom Casmurro"?</enunciado>
+      <pontuação>2</pontuação>
+      <alternativas>
+        <alternativa correta="sim">Machado de Assis</alternativa>
+        <alternativa correta="nao">José de Alencar</alternativa>
+        <alternativa correta="nao">Clarice Lispector</alternativa>
+        <alternativa correta="nao">Monteiro Lobato</alternativa>
+      </alternativas>
+    </questão>
+
+    <questão>
+      <enunciado>Qual é o elemento químico de símbolo O?</enunciado>
+      <pontuação>1</pontuação>
+      <alternativas>
+        <alternativa correta="nao">Ouro</alternativa>
+        <alternativa correta="nao">Ósmio</alternativa>
+        <alternativa correta="sim">Oxigênio</alternativa>
+        <alternativa correta="nao">Prata</alternativa>
+      </alternativas>
+    </questão>
+  </questões>
+</quiz>
+</schema>
