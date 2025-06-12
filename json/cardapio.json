@@ -1,0 +1,101 @@
+{
+    "cardapio": [  { "prato":
+        
+            {
+             "id": "p01",
+            "nome":"peixe frito",
+            "descricao":"peixe frito ao molho branco",
+            "igredientes":{
+                "ingrediente":"peixe, molho branco",
+                "preco":"dois reais",
+                "calorias":"8kcl",
+                "tempoPreparo": "duas horas"
+                } },
+            
+            
+            
+            {
+            "id": "p02",
+            "nome":"arroz frito",
+            "descricao":"arroz frito ao molho branco",
+            "igredientes":{
+                "ingrediente":"arroz, óleo",
+                "preco":"tres reais",
+                "calorias":"8kcl",
+                "tempoPreparo": "uma horas"
+                }  
+            } 
+             
+            
+
+           {
+            "id": "p03",
+            "nome":"frango",
+            "descricao":"frango assado",
+            "igredientes":{
+                "ingrediente":"frango, óleo",
+                "preco":"dois reais",
+                "calorias":"8kcl",
+                "tempoPreparo": "duas horas"
+                }
+            } 
+
+            {
+            "id": "p04",
+            "nome":"peixe frito",
+            "descricao":"peixe frito ao molho branco",
+            "igredientes":{
+                "ingrediente":"peixe, molho branco",
+                "preco":"dois reais",
+                "calorias":"8kcl",
+                "tempoPreparo": "duas horas"
+                }  
+            } 
+             
+
+
+            {
+            "id": "p05",
+            "nome":"peixe frito",
+            "descricao":"peixe frito ao molho branco",
+            "igredientes":{
+                "ingrediente":"peixe, molho branco",
+                "preco":"dois reais",
+                "calorias":"8kcl",
+                "tempoPreparo": "duas horas"
+                }  
+            } 
+             
+
+
+
+
+
+
+
+
+
+
+
+        
+  } ]
+} 
+
+
+
+
+
+
+    <cardapio>
+
+    <prato id="p01" > 
+        <nome>peixe frito</nome>
+        <descricao>peixe frito ao molho branco</descricao>
+        <ingredientes>
+            <ingrediente>peixe</ingrediente> 
+            <ingrediente>molho branco</ingrediente> 
+        </ingredientes>
+        <preco>dois reais</preco>
+        <calorias>8kcl</calorias>
+        <tempoPreparo>duas horas</tempoPreparo>
+    </prato>
