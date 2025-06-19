@@ -1,0 +1,13 @@
+<!ELEMENT cardapio (prato+)>
+<!ATTLIST prato id ID #REQUIRED>
+<!ELEMENT prato (nome, descricao, ingredientes, preco, calorias, tempoPreparo)>
+<!ELEMENT ingredientes (ingrediente+)>
+<!ELEMENT ingrediente (#PCDATA)>
+<!ELEMENT preco (#PCDATA)>
+<!ELEMENT moeda (BRL, USD)>
+<!ATTLIST pagamento tipo (BRL|USD) "BRL">
+<!ENTITY reais "r$">
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT descricao (#PCDATA)>
+<!ELEMENT calorias (#PCDATA)>
+<!ELEMENT tempoPreparo (#PCDATA)>

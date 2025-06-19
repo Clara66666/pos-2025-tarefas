@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+
+<cardapio>
+
+    <prato id="p01" > 
+        <nome>peixe frito</nome>
+        <descricao>peixe frito ao molho branco</descricao>
+        <ingredientes>
+            <ingrediente>peixe</ingrediente> 
+            <ingrediente>molho branco</ingrediente> 
+        </ingredientes>
+        <preco>dois reais</preco>
+        <calorias>8kcl</calorias>
+        <tempoPreparo>duas horas</tempoPreparo>
+    </prato>
+
+   
+   
+
+
+    <prato id = "p02"> 
+        <nome>arroz frito</nome>
+        <descricao>arroz frito ao molho branco</descricao>
+        <ingredientes>
+            <ingrediente>arroz</ingrediente> 
+            <ingrediente>óleo</ingrediente> 
+        </ingredientes>
+        <preco>tres reais</preco>
+        <calorias>8kcl</calorias>
+        <tempoPreparo>uma horas</tempoPreparo>
+    
+    </prato>
+    
+   
+   
+
+
+    <prato id="p03" >
+        <nome>frango </nome>
+        <descricao>frango assado</descricao>
+        <ingredientes> 
+            <ingrediente>frango</ingrediente> 
+            <ingrediente>óleo</ingrediente>
+
+        </ingredientes>
+        <preco>sete reais</preco>
+        <calorias>8kcl</calorias>
+        <tempoPreparo>duas horas</tempoPreparo>
+       
+    </prato>
+    
+   
+
+    <prato id="p04" > 
+        <nome>lasanha</nome>
+        <descricao>lasanha temperada</descricao>
+        <ingredientes> 
+            <ingrediente>macarrão</ingrediente> 
+            <ingrediente>queijo</ingrediente> 
+        </ingredientes>
+        <preco>dez reais</preco>
+        <calorias>8kcl</calorias>
+        <tempoPreparo>três horas</tempoPreparo>
+    </prato>
+
+   
+    
+       
+
+   <prato id="p05" >  
+        <nome>feijão</nome>
+        <descricao>feijão ao molho branco</descricao>
+        <ingredientes> 
+            <ingrediente>feijão</ingrediente> 
+            <ingrediente>molho branco</ingrediente> 
+        </ingredientes>
+        <preco>dois reais</preco>
+        <calorias>8kcl</calorias>
+        <tempoPreparo>duas horas</tempoPreparo>
+  </prato>
+
+    
+   
+</cardapio>

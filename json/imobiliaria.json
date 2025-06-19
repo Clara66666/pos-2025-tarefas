@@ -1,0 +1,106 @@
+{
+  "imobiliaria": {
+    "imoveis": [
+      {
+        "descricao": "casa1",
+        "proprietario": {
+          "nome": "Lurdes",
+          "email": "Lurdessan@gmail.com",
+          "telefones": ["9970642114", "9970348114"]
+        },
+        "endereco": {
+          "rua": "rua um",
+          "bairro": "santos alves",
+          "cidade": "Osasco",
+          "numero": "120"
+        },
+        "caracteristicas": {
+          "tamanho": "1.400",
+          "numQuartos": "5",
+          "numBanheiros": "3"
+        },
+        "valor": "20.000"
+      },
+      {
+        "descricao": "casa2",
+        "proprietario": {
+          "nome": "joao",
+          "email": "joaossan@gmail.com",
+          "telefones": ["9970682114"]
+        },
+        "endereco": {
+          "rua": "rua dois",
+          "bairro": "dona neves",
+          "cidade": "Osasco",
+          "numero": "140"
+        },
+        "caracteristicas": {
+          "tamanho": "1.400",
+          "numQuartos": "5",
+          "numBanheiros": "4"
+        },
+        "valor": "25.000"
+      },
+      {
+        "descricao": "casa3",
+        "proprietario": {
+          "nome": "madruga",
+          "email": "madrugasan@gmail.com",
+          "telefones": ["9970682118"]
+        },
+        "endereco": {
+          "rua": "rua tres",
+          "bairro": "chiquinha",
+          "cidade": "Osasco",
+          "numero": "0"
+        },
+        "caracteristicas": {
+          "tamanho": "1.400",
+          "numQuartos": "5",
+          "numBanheiros": "7"
+        },
+        "valor": "25.000"
+      },
+      {
+        "descricao": "casa4",
+        "proprietario": {
+          "nome": "chico",
+          "email": "chicosan@gmail.com",
+          "telefones": ["9970682112"]
+        },
+        "endereco": {
+          "rua": "rua quatro",
+          "bairro": "dona florinda",
+          "cidade": "Osasco",
+          "numero": "144"
+        },
+        "caracteristicas": {
+          "tamanho": "1.400",
+          "numQuartos": "10",
+          "numBanheiros": "4"
+        },
+        "valor": "45.000"
+      },
+      {
+        "descricao": "casa5",
+        "proprietario": {
+          "nome": "jaiminho",
+          "email": "jaiminhosan@gmail.com",
+          "telefones": ["9970672114"]
+        },
+        "endereco": {
+          "rua": "rua cinco",
+          "bairro": "dona cloutilde",
+          "cidade": "Osasco",
+          "numero": "145"
+        },
+        "caracteristicas": {
+          "tamanho": "1.400",
+          "numQuartos": "20",
+          "numBanheiros": "5"
+        },
+        "valor": "60.000"
+      }
+    ]
+  }
+}

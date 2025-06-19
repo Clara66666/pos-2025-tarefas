@@ -1,0 +1,64 @@
+{
+  "quiz": {
+    "versao": "1.0",
+    "disciplina": "Matemática",
+    "professor": {
+      "nome": "Maria Silva",
+      "matricula": "12345"
+    },
+    "turma": "8A",
+    "data": "2025-06-11",
+    "questoes": [
+      {
+        "enunciado": "Quanto é 5 + 3?",
+        "pontuacao": "1",
+        "alternativas": [
+          { "texto": "6", "correta": "nao" },
+          { "texto": "7", "correta": "nao" },
+          { "texto": "8", "correta": "sim" },
+          { "texto": "9", "correta": "nao" }
+        ]
+      },
+      {
+        "enunciado": "Qual é a capital da França?",
+        "pontuacao": "1",
+        "alternativas": [
+          { "texto": "Paris", "correta": "sim" },
+          { "texto": "Londres", "correta": "nao" },
+          { "texto": "Berlim", "correta": "nao" },
+          { "texto": "Madri", "correta": "nao" }
+        ]
+      },
+      {
+        "enunciado": "Qual o resultado de 2 × 6?",
+        "pontuacao": "1",
+        "alternativas": [
+          { "texto": "10", "correta": "nao" },
+          { "texto": "12", "correta": "sim" },
+          { "texto": "14", "correta": "nao" },
+          { "texto": "16", "correta": "nao" }
+        ]
+      },
+      {
+        "enunciado": "Quem escreveu \"Dom Casmurro\"?",
+        "pontuacao": "2",
+        "alternativas": [
+          { "texto": "Machado de Assis", "correta": "sim" },
+          { "texto": "José de Alencar", "correta": "nao" },
+          { "texto": "Clarice Lispector", "correta": "nao" },
+          { "texto": "Monteiro Lobato", "correta": "nao" }
+        ]
+      },
+      {
+        "enunciado": "Qual é o elemento químico de símbolo O?",
+        "pontuacao": "1",
+        "alternativas": [
+          { "texto": "Ouro", "correta": "nao" },
+          { "texto": "Ósmio", "correta": "nao" },
+          { "texto": "Oxigênio", "correta": "sim" },
+          { "texto": "Prata", "correta": "nao" }
+        ]
+      }
+    ]
+  }
+}
