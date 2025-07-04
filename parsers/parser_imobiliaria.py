@@ -1,66 +1,70 @@
 import json
-import os
 
 def mostrar_menu(imoveis):
-    print("LISTA DE IMÓVEIS")
+    print("\nLista de imóveis:")
     for i, imovel in enumerate(imoveis):
-        descricao = imovel.get('descricao', 'Sem descrição')
-        print(f"{i} - {descricao}")
-    
+        print(f"{i} - {imovel.get('descricao', 'Sem descrição')}")
 
 def mostrar_detalhes(imovel):
-    print(" DETALHES DO IMÓVEL")
-    for chave, valor in imovel.items():
-        
-        if isinstance(valor, dict):
-            print(f"{chave.capitalize()}:")
-            for subchave, subvalor in valor.items():
-               
-                if isinstance(subvalor, list):
-                    print(f"  {subchave}:")
-                    for item in subvalor:
-                        print(f"    - {item}")
-                else:
-                    print(f"  {subchave}: {subvalor}")
-       
-        elif isinstance(valor, list):
-            print(f"{chave.capitalize()}:")
-            for item in valor:
-                print(f"  - {item}")
-        else:
-            print(f"{chave.capitalize()}: {valor}")
-   
+    print("\nDetalhes do imóvel:")
+    print(f"Descrição: {imovel.get('descricao')}")
+
+    proprietario = imovel.get('proprietario', {})
+    nome = proprietario.get('nome', 'Não informado')
+    email = proprietario.get('email', 'Não informado')
+    telefones = proprietario.get('telefone')
+    if isinstance(telefones, list):
+        tel_str = ", ".join(telefones)
+    else:
+        tel_str = telefones or "Não informado"
+
+    print(f"Proprietário: {nome}")
+    print(f"E-mail: {email}")
+    print(f"Telefones: {tel_str}")
+
+    endereco = imovel.get('endereco', {})
+    rua = endereco.get('rua', 'Desconhecida')
+    numero = endereco.get('numero', 's/n')
+    bairro = endereco.get('bairro', '')
+    cidade = endereco.get('cidade', '')
+    print(f"Endereço: {rua}, {numero}, {bairro} - {cidade}")
+
+    caracteristicas = imovel.get('caracteristicas', {})
+    tamanho = caracteristicas.get('tamanho', '?')
+    quartos = caracteristicas.get('numQuartos', '?')
+    banheiros = caracteristicas.get('numBanheiros', '?')
+    print(f"Tamanho: {tamanho} m²")
+    print(f"Quartos: {quartos}")
+    print(f"Banheiros: {banheiros}")
+
+    valor = imovel.get('valor', 'Não informado')
+    print(f"Valor: R$ {valor}")
+    print()
 
 def main():
-    pasta = "parsers"
-    json_path = os.path.join(pasta, "imobiliaria.json")
-
-    
     try:
-        with open(json_path, "r", encoding="utf-8") as f:
+        with open("parsers/imobiliaria.json", "r", encoding="utf-8") as f:
             imoveis = json.load(f)
     except FileNotFoundError:
-        print(f"Arquivo {json_path} não encontrado. Execute primeiro o script que gera o JSON.")
+        print("Arquivo JSON não encontrado.")
         return
 
     while True:
         mostrar_menu(imoveis)
-        escolha = input("Digite o ID do imóvel para ver detalhes (ou 'sair' para encerrar): ").strip()
+        escolha = input("\nDigite o ID do imóvel (ou 'sair' para encerrar): ").strip()
 
-        if escolha.lower() == 'sair':
-            print("Programa encerrado. Até mais!")
+        if escolha.lower() == "sair":
             break
-
         if not escolha.isdigit():
-            print("Por favor, digite um número válido ou 'sair'.")
+            print("Por favor, digite um número válido.")
             continue
 
         idx = int(escolha)
-
         if 0 <= idx < len(imoveis):
             mostrar_detalhes(imoveis[idx])
         else:
-            print("ID inválido. Tente novamente.")
+            print("ID fora do intervalo.")
 
 if __name__ == "__main__":
     main()
+
