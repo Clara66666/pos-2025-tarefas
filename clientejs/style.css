@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  color: #ff1cd9;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+h3 {
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+/* Caixa dos Pokémons */
+#pokemonList {
+  max-height: 70vh;
+  overflow-y: auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+#pokemonList li {
+  transition: all 0.2s ease-in-out;
+}
+
+#pokemonList li:hover {
+  background-color: #ffebee;
+  transform: scale(1.02);
+}
+
+/* Card de detalhes */
+#pokemonDetails {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  background-color: #fff;
+  text-align: center;
+}
+
+#pokemonDetails h4 {
+  font-weight: bold;
+  color: #8e4de2;
+}
+
+#pokemonDetails img {
+  max-width: 200px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#pokemonDetails img:hover {
+  transform: scale(1.1);
+}
+
+/* Scroll bonito */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #eee;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #8e4de2;
+  border-radius: 10px;
+}
