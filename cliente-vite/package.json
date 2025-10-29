@@ -1,5 +1,5 @@
 {
-  "name": "pokemon",
+  "name": "cliente-vite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,6 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^6.3.5"
+    "vite": "^7.1.7"
   }
 }
